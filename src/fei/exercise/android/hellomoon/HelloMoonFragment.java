@@ -31,7 +31,7 @@ public class HelloMoonFragment extends Fragment {
 			
 			@Override
 			public void onClick(View v) {
-				mPlayer.stop();
+				mPlayer.pause();
 			}
 		});
 		return v;
